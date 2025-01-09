@@ -89,7 +89,12 @@ body {
     background-color: white;
   }
 
+  .image-section{
+    display: flex;
+    align-items: center;
+  }
+
   .image-section img{
     width: 1324px;
-    height: auto;
+    margin: 0 auto;
   }
