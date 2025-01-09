@@ -16,6 +16,7 @@ body {
 .navbar{
     width: 1237px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .navbar-menu{
@@ -41,7 +42,8 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 50px;
 }
 
 .feature-title, 
@@ -53,6 +55,10 @@ body {
 .feature-title{
     font-size: 60px;
     line-height: 72px;
+}
+
+.feature-heading {
+    margin-bottom: 20px;
 }
 
 .feature-description{
@@ -73,6 +79,7 @@ body {
     color: black; 
     cursor: pointer; 
     border-radius: 30px; 
+    margin-top: 14px;
 }
 
 .underlined{
@@ -97,4 +104,6 @@ body {
   .image-section img{
     width: 1324px;
     margin: 0 auto;
+    position: inherit;
+    margin-top: -150px;
   }
