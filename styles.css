@@ -4,13 +4,18 @@
     font-family: 'DM Sans', sans-serif;
 }
 
-body {
-    background-color: #151315;
-    margin-top: 1rem;
+a{
+    all: unset;
 }
 
-.navbar nav li {
-    cursor: pointer;
+body {
+    background-color: #151315;
+    background-image: radial-gradient(circle at bottom, #FEEA360A 4%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: center bottom;
+    margin-top: 1rem;
+    min-height: 100vh;
 }
 
 .navbar{
@@ -24,11 +29,17 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    cursor: pointer;
 }
 
 .navbar-item{
     height: 30px;
     color: #D0CAD0;
+    cursor: pointer;
+}
+
+.navbar-item span{
+    color: #FEEA36;
 }
 
 .fas.fa-bars {
@@ -42,7 +53,6 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     margin-top: 50px;
 }
 
@@ -89,10 +99,10 @@ body {
 .underlined::after {
     content: "";
     position: absolute; 
-    bottom: 0;
+    bottom: 7px;
     left: 0;
     width: 100%;
-    height: 4px;
+    height: 3.5px;
     background-color: white;
   }
 
@@ -107,3 +117,5 @@ body {
     position: inherit;
     margin-top: -150px;
   }
+
+ 
